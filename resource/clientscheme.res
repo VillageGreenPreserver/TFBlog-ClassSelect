@@ -1175,7 +1175,7 @@ Scheme
 			"1"
 			{
 				"bitmap"	"1"
-				"name"		"FuturaBitmap"
+				"name"		"Buttons"
 				"scalex"	"0.5"
 				"scaley"	"0.5"
 			}

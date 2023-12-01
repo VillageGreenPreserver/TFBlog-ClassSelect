@@ -123,12 +123,26 @@
 	"Preload"
 	{
 		"ControlName"	"EditablePanel"
-		
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"futura"
 		{
 			"ControlName"	"ImagePanel"
-			"image"			"fonts/futura"
+			"image"			"replay/thumbnails/futura"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"
 		}
+		"futura2"
+		{
+			"ControlName"	"Label"
+			"font"			"futura"
+			"wide"			"f0"
+			"tall"			"f0"
+			"labeltext"		"Test"
+			"scaleImage"	"1"
+		}	
 	}
 
 	"mouseoveritempanel"
