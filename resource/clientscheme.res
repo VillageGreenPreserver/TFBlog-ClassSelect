@@ -473,7 +473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Bungee Spice Regular"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5849,6 +5849,11 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font" "resource/BungeeSpice-Regular.ttf"
+			"name" "Bungee Spice Regular"
 		}
 	}
 }

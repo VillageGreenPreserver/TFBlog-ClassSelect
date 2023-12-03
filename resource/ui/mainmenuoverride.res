@@ -129,7 +129,7 @@
 		"futura2"
 		{
 			"ControlName"	"Label"
-			"font"			"futura"
+			"font"			"Default"
 			"wide"			"f0"
 			"tall"			"f0"
 			"labeltext"		"Test"
