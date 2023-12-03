@@ -10,14 +10,12 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
-
-	Test
+	
+	"TEST"
 	{
-		"ControlName"	"Label"
-		"wide"			"f0"
-		"tall"			"f0"
-		"font"			"Futura"
-		"labelText"		"TEST"
+		"ControlName"	"CIconPanel"
+		"wide"			"100"
+		"tall"			"100"
 	}
 
 	HudWeaponAmmo
@@ -529,6 +527,7 @@
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
+		"KillStreakBackgroundColor"	"255 0 0 255"
 
 		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
