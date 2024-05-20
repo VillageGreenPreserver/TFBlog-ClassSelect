@@ -14,31 +14,6 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
-	"scout"
-	{
-		"ControlName"	"CModelPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"200"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"60"
-		"render_texture"	"0"
-		"model"
-		{
-			"modelname"	"models/player/scout.mdl"
-			"skin"		"0"
-			"angles_x" "0"	//z
-			"angles_y" "-180" //y
-			"angles_z" "0"	//x
-			
-			"origin_x" "300"
-			"origin_y" "0"
-			"origin_z" "-20"
-		}
-	}	
 	"soldier"
 	{
 		"ControlName"	"CModelPanel"
