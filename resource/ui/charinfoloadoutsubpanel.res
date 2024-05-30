@@ -1,42 +1,5 @@
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"100"
-		"use_particle"	"1"
-		"model"
-		{
-			"modelname"	"models/player/demo.mdl"
-			"skin"		"0"
-			"angles_x" "0"	//z
-			"angles_y" "180" //y
-			"angles_z" "0"	//x
-			
-			"origin_x" "300"
-			"origin_y" "0"
-			"origin_z" "0"
-			
-			"animation"
-			{
-				"sequence"	"selectionmenu_anim01"
-				"default"	"1"
-			}
-			
-			"attached_model"
-			{
-				"modelname"	"models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl"
-			}
-		}
-	}	
 	"CharInfoLoadoutSubPanel"
 	{
 		"ControlName"	"Frame"
@@ -59,18 +22,19 @@
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
 		
-		"class_ypos"				"40"
-		"class_xdelta"				"5"
+		"class_ypos"				"0"
+		"class_xdelta"				"0"
 		"class_wide_min"			"60"
 		"class_wide_max"			"100"
 		"class_tall_min"			"120"
 		"class_tall_max"			"200"
 		"class_distance_min"		"7"
-		"class_distance_max"		"100"
+		"class_distance_max"		"60"
 
 		"itemcountcolor"			"200 80 60 255"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
+
 	
 	"scout"
 	{
@@ -541,7 +505,7 @@
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"200"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"30"

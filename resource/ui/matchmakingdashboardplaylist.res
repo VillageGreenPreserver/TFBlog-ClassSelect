@@ -6,13 +6,12 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"-10"
+		"ypos"			"10"
 		"zpos"			"1001"
-		"wide"			"f0"
+		"wide"			"280"
 		"tall"			"f70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"pin_to_sibling"	"Test"
 	}
 
 	"Title"
