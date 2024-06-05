@@ -333,15 +333,12 @@
 	
 	BuildingStatus_Engineer
 	{
+		"ControlName"	"CHudBuildingStatusContainer_Engineer"
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -551,6 +548,20 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+	}
+
+	"score_pin"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"100"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+	}
+
+	"scores"
+	{
+		"pin_to_sibling"	"score_pin"
 	}
 
 	ScorePanel
